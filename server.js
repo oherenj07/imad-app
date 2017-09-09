@@ -13,6 +13,15 @@ app.get('/article-one', function (req, res) {
     res.send('Article one is fetched and is serving here.');
 });
 
+app.get('/article-two', function (req, res) {
+    res.send('Article 2 is fetched and is serving here.');
+});
+
+app.get('/article-three', function (req, res) {
+    res.send('Article 3 is fetched and is serving here.');
+});
+
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
