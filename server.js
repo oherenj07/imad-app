@@ -32,7 +32,7 @@ function createTemplate(data){
         <hr/>
         <h3>Article 1</h3>
         <div>
-            Sep 9,2017
+            ${date}
         </div>
         <div>
             <p>This is the first article.This is the first article.
