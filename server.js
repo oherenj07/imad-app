@@ -17,8 +17,8 @@ function createTemplate(data){
     var date = data.date;
     var content = data.content;
     
-     var htmlTemplate = ' '+
-   ' <html>\
+     var htmlTemplate = ' \
+   <html>\
         <head>\
             <title>${title}</title>\
             <meta name="viewport" content="width-device-width,initial-scale=1" /> \
@@ -32,15 +32,12 @@ function createTemplate(data){
             <div>\
                 ${date}\
             </div>\
-            <div>\
-                ${content}'+          
-            '</div>'+
-        '</body>'+
-    '</html>\
-    \
-    \
-    \
-    ';
+            <div>'+
+               ' ${content}'+     
+            '</div>\
+        </body>\
+    </html>'+
+    '';
     
     
 }
