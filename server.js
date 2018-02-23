@@ -22,7 +22,7 @@ function createTemplate(data){
      
      <html>
     <head>
-        <title>Article-one | Oliver Herenj</title>
+        <title>${title}</title>
         <meta name="viewport" content="width-device-width,initial-scale=1" /> 
     </head>
     <body>
@@ -30,7 +30,7 @@ function createTemplate(data){
             <a href='/'>Home</a>
         </div>
         <hr/>
-        <h3>Article 1</h3>
+        <h3>${heading}</h3>
         <div>
             ${date}
         </div>
