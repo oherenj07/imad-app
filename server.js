@@ -10,7 +10,7 @@ var articles = {
   title:'Article-One |Oliver Herenj|',
   heading:'Article One',
   date:'Sep 5 2018',
-  content:` <p>This is the first article.This is the first article.                                                           This is the first article.This is the first article.</p><p>This is the first article.This is the first article.   This is the first article.This is the first article.</p><p>This is the first article.This is the first article.   This is the first article.This is the hello article.</p>`
+  content:' <p>This is the first article.This is the first article.                                                           This is the first article.This is the first article.</p><p>This is the first article.This is the first article.   This is the first article.This is the first article.</p><p>This is the first article.This is the first article.   This is the first article.This is the hello article.</p>'
 },
     articletwo : {
         title:'Article-One |Oliver Herenj|',
