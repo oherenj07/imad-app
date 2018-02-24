@@ -15,12 +15,12 @@ var articles = {
     'article-two' : {
         title:'Article-Two |Oliver Herenj|',
         heading:'Article Two',
-        date:'Sep 5 2018',
+        date:'Sep 7 2018',
         content:'<p>This is the first article.This is the first article.                                                           This is the first article.This is the first article.</p><p>This is the first article.This is the first article.   This is the first article.This is the first article.</p><p>This is the first article.This is the first article.   This is the first article.This is the hello article.</p>'},
     'article-three' : {
         title:'Article-Three |Oliver Herenj|',
         heading:'Article Three',
-        date:'Sep 5 2018',
+        date:'Sep 8 2018',
         content:' <p>This is the first article.This is the first article.                                                           This is the first article.This is the first article.</p><p>This is the first article.This is the first article.   This is the first article.This is the first article.</p><p>This is the first article.This is the first article.   This is the first article.This is the hello article.</p>' }
 };
 function createTemplate(data){
