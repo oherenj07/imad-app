@@ -13,13 +13,13 @@ var articles = {
   content:' <p>This is the first article.This is the first article.                                                           This is the first article.This is the first article.</p><p>This is the first article.This is the first article.   This is the first article.This is the first article.</p><p>This is the first article.This is the first article.   This is the first article.This is the hello article.</p>'
 },
     'article-two' : {
-        title:'Article-One |Oliver Herenj|',
-        heading:'Article One',
+        title:'Article-Two |Oliver Herenj|',
+        heading:'Article Two',
         date:'Sep 5 2018',
         content:'<p>This is the first article.This is the first article.                                                           This is the first article.This is the first article.</p><p>This is the first article.This is the first article.   This is the first article.This is the first article.</p><p>This is the first article.This is the first article.   This is the first article.This is the hello article.</p>'},
     'article-three' : {
-        title:'Article-One |Oliver Herenj|',
-        heading:'Article One',
+        title:'Article-Three |Oliver Herenj|',
+        heading:'Article Three',
         date:'Sep 5 2018',
         content:' <p>This is the first article.This is the first article.                                                           This is the first article.This is the first article.</p><p>This is the first article.This is the first article.   This is the first article.This is the first article.</p><p>This is the first article.This is the first article.   This is the first article.This is the hello article.</p>' }
 };
