@@ -36,6 +36,7 @@ function createTemplate(data){
     <head>
         <title>${title}</title>
         <meta name="viewport" content="width-device-width,initial-scale=1" /> 
+        <link href="/ui/style.css" rel="stylesheet" />
     </head>
     <body>
         <div>
@@ -67,13 +68,6 @@ app.get('/:articleName',function(req, res){
    res.send(createTemplate(articles[articleName]));
 });
 
-app.get('/article-two', function(req, res){
-   res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
-});
-
-app.get('/article-three', function(req, res){
-   res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
-});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
