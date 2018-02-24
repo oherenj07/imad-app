@@ -2,7 +2,7 @@
 var button = document.getElementById('counter');
 
 button.onclick = function(){
- //Make a request tothe counter end point
+ //Create a request object
  var request = new XMLHttpRequest();
  
 //Capture the response and store it in a variable.
@@ -17,6 +17,7 @@ button.onclick = function(){
         //Not done yet
         
     };
-
-
+//Make a request
+request.open('GET','http://oherenj.imad.hasura-app.io/counter',true);
+request.send(null);
 };
