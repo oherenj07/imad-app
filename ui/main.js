@@ -18,6 +18,8 @@ button.onclick = function(){
         //Not done yet
         
     };
+    
+  };
    
     var submit = document.getElementById('submit_btn');
     submit.onclick = function(){
@@ -53,4 +55,4 @@ request.send(null);
 
         
        
-    };
+  
