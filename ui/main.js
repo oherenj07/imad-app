@@ -18,6 +18,8 @@ button.onclick = function(){
         //Not done yet
         
     };
+    request.open('GET', 'http://oherenj.imad.hasura-app.io/counter',true);
+    request.send(null);
     
   };
    
