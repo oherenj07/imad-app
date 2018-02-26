@@ -81,6 +81,11 @@ app.get('/submit-name', function(req, res){ //Url: /submit-name?name=xxxx
    res.send(JSON.stringify(names));//TODO
 });
 
+app.get('/test-db', function(req, res){
+    //Make a select request
+    
+    //Return a response with the result
+});
 
 app.get('/:articleName',function(req, res){
     var articleName = req.params.articleName;
