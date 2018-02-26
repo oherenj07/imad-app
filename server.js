@@ -109,7 +109,7 @@ app.get('/test-db', function(req, res){
 app.get('/article/:articleName',function(req, res){
     
     //SELECT * FROM article WHERE title = article-one'
-    pool.query("SELECT * FROM article where title ='"+req.params.articleName+"'", function(err, params){
+    pool.query("SELECT * FROM article WHERE title ='"+req.params.articleName+"'", function(err, params){
      if(err){
          res.status(500).send(err.toString());
      }else
