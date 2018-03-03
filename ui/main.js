@@ -23,8 +23,8 @@ button.onclick = function(){
     
   };
    
-    var submit = document.getElementById('submit_btn');
-    submit.onclick = function(){
+    var submitget = document.getElementById('submit_btn');
+    submitget.onclick = function(){
         //Create a request object
      var request = new XMLHttpRequest();
  
@@ -55,8 +55,8 @@ request.send(null);
 };
     
     
-        var submit = document.getElementById('submit_button');
-    submit.onclick = function(){
+        var submitpost = document.getElementById('submit_button');
+    submitpost.onclick = function(){
         //Create a request object
      var request = new XMLHttpRequest();
  
@@ -66,18 +66,25 @@ request.send(null);
             //Take some action
             if(request.status === 200){
              console.log("user logged in");
+             alert("Logged in successfully");
+            }else
+                if(request.status === 403){
+                    alert('username/password is incorrect !');
+                }else if(request.status === 500){
+                    alert('Something went wrong on the server');
+                }
+            
         }
-        var ul =document.getElementById('namelist');
-            ul.innerHTML = list;
-            }
-        }
+        
+ };
+        
         //Not done yet
         
 
 
 //Make Post request
-var username = document.getElementById('username');
-var password = document.getElementById('password');
+var username = document.getElementById('username').value;
+var password = document.getElementById('password').value;
 console.log("username");
 console.log("password");
 request.open('GET', 'http://oherenj.imad.hasura-app.io/login',true);
